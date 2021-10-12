@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 50px;
+  outline: none;
+  border: 2px solid greenyellow;
+  color: white;
+  text-shadow: 1px 1px black;
+  padding: 10px;
+  border-radius: 60px / 10px;
+  font-size: 2rem;
+  background-color: greenyellow;
+}
